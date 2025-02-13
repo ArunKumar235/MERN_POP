@@ -1,0 +1,28 @@
+/* .relative-pos{
+    position: relative;
+    background-color: aquamarine;
+    left: 50px;
+    top: 50px;
+}
+.relative-pos1{
+    position: relative;
+    background-color: rgb(255, 127, 127);
+}
+.relative-pos2{
+    position: relative;
+    background-color: rgb(237, 7, 184);
+    left: 50px;
+    top: 50px;
+} */
+.div-pos{
+    margin: 100px;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border: 2px solid goldenrod;
+}
+.abs-pos{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}

@@ -1,0 +1,37 @@
+/* .data{
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.form-container{
+    width: 350px;
+    margin: auto; 
+    text-align: center; 
+    padding: 20px;
+} */
+ /* Centering the form */
+ .form-container {
+    width: 400px;
+    margin: auto;
+    border: 2px solid #35518e;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* Styling input fields */
+.data {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 2px;
+    border: 1px solid #1a1a1a;
+    border-radius: 5px;
+}
+/* Styling the submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4c91af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
