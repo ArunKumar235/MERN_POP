@@ -1,21 +1,9 @@
-*{
-    text-align: center;
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-div{
-    height: 200px;
+.hawkeye{
     width: 200px;
-    padding:50px; /* background color is applied to padding and content as both are present inside the margin */
-    margin: 10px;
-}
-
-.external{
-    background-color: green;
-}
-
-.box{
-    background-color:peru ;
-    padding: 20px;
-    margin: 25px;
-    border: 4px solid gold;
+    height: 200px;
+    background-color:sandybrown;
+    display: inline-block;
 }
