@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: chocolate;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: chocolate;
+    padding: 10px;
+}
+
+nav > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+
+nav > li > a:hover{
+    color: chocolate;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.skills{
+    display: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px;
+    grid-gap: 50px;
+    /* background-color: cornflowerblue; */
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: coral;
+}
