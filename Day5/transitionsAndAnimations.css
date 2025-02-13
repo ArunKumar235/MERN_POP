@@ -1,0 +1,14 @@
+.transition{
+    color: #3D8D7A;
+    background-color: #B3D8A8;
+    transition: width 5s, height 5s, background-color 5s, color 5s, padding 5s, transform 2s, opacity 2s;
+}
+.transition:hover{
+    color: #B3D8A8;
+    background-color: #3D8D7A;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg); 
+    opacity: 0.9;
+}
