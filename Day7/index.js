@@ -147,3 +147,20 @@ function display(result) {
 }
 add(10, 20, display) // 30
 //-------------------------------------------
+
+// 11. Async/Await
+async function asyncFunction() {
+    setTimeout(() => {
+        console.log("Async Function");
+    }, 5000);
+}
+
+console.log(asyncFunction()); // Promise {<pending>}
+//-------------------------------------------
+
+// 12. Promise
+var promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve("Promise Resolved");
+    }, 5000);
+})
