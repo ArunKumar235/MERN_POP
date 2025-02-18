@@ -7,39 +7,49 @@ function promiseEg(value) {
     }, 5000);
   });
 }
-promiseEg(false).then((res) => {
-    console.log(res);
+
+promiseEg(true)
+  .then((res) => {
+    console.log("Resolved: " + res);
   })
   .catch((res) => {
-    console.log(res);
+    console.log("Rejected: " + res);
   });
 */
+
 //Location Finder
 //1. Promise(LocFound,LocNotFound)
 //2. Chennai,2000
+
+/*
+
 function locationFinder(loc, time) {
-    var location = new Promise((locFound, locNotFound) => {
-      setTimeout(() => {
-        if (isLocationFound(loc, time)) {
-          locFound(loc);
-        } else {
-          locNotFound(loc+" Not Found");
-        }
-      }, time);
-    });
-    location.then((found) => {
+  var location = new Promise((locFound, locNotFound) => {
+    setTimeout(() => {
+      if (isLocationFound(loc, time)) {
+        locFound(loc);
+      } else {
+        locNotFound(loc + " Not Found");
+      }
+    }, time);
+  });
+  location
+    .then((found) => {
       console.log(found);
-    }).catch((notFound)=>{
-      console.log(notFound);
     })
+    .catch((notFound) => {
+      console.log(notFound);
+    });
+}
+isLocationFound = (loc, time) => {
+  location = "Chennai";
+  t = 1000;
+  if (loc === location && t <= time) {
+    return true;
+  } else {
+    return false;
   }
-  isLocationFound = (loc, time) => {
-    location = "Chennai";
-    t = 1000;
-    if (loc === location && t <= time) {
-      return true;
-    } else {
-      return false;
-    }
-  };
-  locationFinder("Chennai", 2000);
+};
+locationFinder("Chennai", 2000);
+
+*/
