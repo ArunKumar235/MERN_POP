@@ -1,0 +1,8 @@
+nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+}
