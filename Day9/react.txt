@@ -1,0 +1,34 @@
+immutable -> not changeable in run time, can only be edited in code 
+
+1. Props -> Properties that you want to pass to your component from the component call, props are immutable, enclosed in {}.
+
+2. State -> It is mutable, everything in state is handled by component itself. If you want to handle/change your state you are dependent on hook useState() and event handling as well.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+        Props                                                       |        State
+--------------------------------------------------------------------|-----------------------------------------------------------------------------
+1. Props are immutable                                              |   State are mutable
+2. Props has no control on the component                            |   State has control over the component
+3. Props should be passed only when the component call is happening |   State can be passed inside the component itself
+4. Props are passed as object                                       |   State are also passed as object
+5. Props will not create infinite loop                              |   State can create an infinite loop if the stateFunction has no control
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+React Routers
+1. You want react-router-dom to be installed `npm i react-router-dom`
+2. BrowserRouter _
+                  |_Routes_
+                           |_Route {attribute[path, element]}
+3. Link tag -> react-router-dom
+
+
+Hooks
+1. useState - The React useState Hook allows us to track state in a function component. State generally refers to data or properties that need to be tracking in an application.
+2. useEffect - The useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data, directly updating the DOM, and timers. useEffect accepts two arguments. The second argument is optional. useEffect(<function>, <dependency>)
+3. useContext
+4. useRef
+5. useMemo
+6. useCallback
+7. useReducer
+8. Custom Hooks
