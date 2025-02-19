@@ -1,0 +1,53 @@
+REACT:
+React is a library used to build front end
+React is a SPA(single page application) application
+React is a component based architecture
+
+adv:
+1. Easy to build  applications  when compared to angular/other frameworks
+2. VDOM->virtual DOM(doesn't loads the entire page only loads the changes made to the page)
+
+why vite?
+    1.gives more dependencies
+    2.does not have report hurdles folder(that causes the project not to work on updating)
+    3.does not have a build folder that can be easily replicated ,easy to crack the original folders
+    4.if react is replaced with angular it can be changed to angular project
+
+folder structure
+1.node_modules(installs all the dependencies to the repo in this folder) 
+2.public
+      |
+      ->vite.svg
+3.src
+    |
+    ->assets
+           |
+           ->react.svg
+    |
+    ->app.css(styling)
+    |
+    ->app.jsx(component)
+    |
+    ->index.css(styling)
+    |
+    ->main.css(component)
+4.gitignore (ignores these files while pushing)
+5.index.html(starting point of the project)
+6.package.json(important file denotes it is a node project)
+7.package.lock.json(locks the dependencies)
+8.vite.config.js
+
+
+components:
+    1.class(not in use)
+    2.functional
+       eg:
+       function home(){
+        return (
+            <div>
+            <h1>welcome to react</h1>
+            <h2>fc</h2>
+            </div>
+        )
+       }
+       export default home;  (only then it can be recognized)
