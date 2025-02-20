@@ -10,6 +10,7 @@ import Login from './components/FunctionalComponent/Login.jsx'
 import UseEffectAPI from './components/FunctionalComponent/Hooks/UseEffectAPI.jsx'
 import UseRef from './components/FunctionalComponent/Hooks/UseRef.jsx'
 import UseMemo from './components/FunctionalComponent/Hooks/UseMemo.jsx'
+import UseState from './components/FunctionalComponent/Hooks/UseState.jsx'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/gallery' element={<Gallery />}/>
           <Route path='/signup' element={<Signup />}/>
+          <Route path='/use-state' element={<UseState/>} />
           <Route path='/use-effect' element={<UseEffect />}/>
           <Route path='/use-effect-api' element={<UseEffectAPI />}/>
           <Route path='/use-ref' element={<UseRef />}/>
