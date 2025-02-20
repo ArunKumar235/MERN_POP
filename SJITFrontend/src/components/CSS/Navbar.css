@@ -6,3 +6,23 @@ nav {
     color: white;
     padding: 10px;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-list{
+    display: block;
+    position: absolute;
+    background-color: cornflowerblue;
+    top: 10px;
+}
+
+.dropdown-link{
+    list-style: none;
+}
+
+.dropdown-link:hover{
+    background-color: violet;
+}

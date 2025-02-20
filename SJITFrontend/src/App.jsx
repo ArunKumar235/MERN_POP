@@ -6,6 +6,10 @@ import Signup from './components/FunctionalComponent/Signup.jsx'
 import Navbar from './components/FunctionalComponent/Navbar.jsx'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import UseEffect from './components/FunctionalComponent/Hooks/useEffect.jsx'
+import Login from './components/FunctionalComponent/Login.jsx'
+import UseEffectAPI from './components/FunctionalComponent/Hooks/UseEffectAPI.jsx'
+import UseRef from './components/FunctionalComponent/Hooks/UseRef.jsx'
+import UseMemo from './components/FunctionalComponent/Hooks/UseMemo.jsx'
 
 function App() {
   return (
@@ -19,6 +23,10 @@ function App() {
           <Route path='/gallery' element={<Gallery />}/>
           <Route path='/signup' element={<Signup />}/>
           <Route path='/use-effect' element={<UseEffect />}/>
+          <Route path='/use-effect-api' element={<UseEffectAPI />}/>
+          <Route path='/use-ref' element={<UseRef />}/>
+          <Route path='/use-memo' element={<UseMemo/>} />
+          <Route path='/login' element={<Login/>} />
         </Routes>
       </BrowserRouter>
     </main>
