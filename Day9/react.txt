@@ -27,8 +27,11 @@ Hooks
 1. useState - The React useState Hook allows us to track state in a function component. State generally refers to data or properties that need to be tracking in an application.
 2. useEffect - The useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data, directly updating the DOM, and timers. useEffect accepts two arguments. The second argument is optional. useEffect(<function>, <dependency>)
 3. useContext
-4. useRef
-5. useMemo
-6. useCallback
+4. useRef - It is helpful for storing and fetching previous renders. var value = useRef();
+5. useMemo - It is utilized to store a value in the cache memory. It is used to optimize your website. var value = useMemo(callback function, dependency);
+6. useCallback - It is utilized to store a complete function in the cache memory which in turn gives me a greater optimization in my website/web app. var functionName =  useCallback(callback function, dependency);
 7. useReducer
-8. Custom Hooks
+8. Custom Hooks - It is used to create our own hook by manipulating the pre-defined hooks.
+
+HoC - Higher Order components
+It is a component built upon another component.

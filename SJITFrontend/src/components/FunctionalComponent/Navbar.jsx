@@ -41,13 +41,24 @@ const Navbar = () => {
               <li >
                 <Link to="/use-memo" className="dropdown-link">useMemo</Link>
               </li>
+              <li >
+                <Link to="/use-callback" className="dropdown-link">useCallback</Link>
+              </li>
+              <li >
+                <Link to="/use-memoize" className="dropdown-link">useMemoize(custom)</Link>
+              </li>
             </ol>
           )}
         </div>
-
+        
+        <li>
+          <Link to="/hoc" className="link">HoC</Link>
+        </li>
+        
         <li>
           <Link to="/contact" className="link">Contact</Link>
         </li>
+        
         <li>
           <Link to="/signup" className="link">Signup</Link>
         </li>
