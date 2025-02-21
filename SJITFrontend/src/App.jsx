@@ -14,6 +14,8 @@ import UseState from './components/FunctionalComponent/Hooks/UseState.jsx'
 import UseCallback from './components/FunctionalComponent/Hooks/UseCallback.jsx'
 import UseMemoize from './components/FunctionalComponent/Hooks/UseMemoize.jsx'
 import HoC from './components/FunctionalComponent/HoC/HoC.jsx'
+import Memo from './components/FunctionalComponent/Memoization/Memo.jsx'
+import LazyLoadingAndSuspense from './components/FunctionalComponent/Memoization/LazyLoadingAndSuspense.jsx'
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
           <Route path='/use-callback' element={<UseCallback/>}/>
           <Route path='/use-memoize' element={<UseMemoize/>}/>
           <Route path='/hoc' element={<HoC/>}/>
+          <Route path='/memo' element={<Memo/>}/>
+          <Route path='/lazy' element={<LazyLoadingAndSuspense/>}/>
           <Route path='/login' element={<Login/>} />
 
         </Routes>
