@@ -35,3 +35,9 @@ Hooks
 
 HoC - Higher Order components
 It is a component built upon another component.
+
+Props drilling
+It is a process of passing props from a parent to child component and so on. It is better to use Context API instead of props drilling. Using Props drilling is a bad practice.
+
+Context API
+It is used to avoid props drilling. It is used to share data between components without passing props through every level of the tree.
