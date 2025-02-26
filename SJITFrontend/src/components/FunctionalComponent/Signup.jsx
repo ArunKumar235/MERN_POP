@@ -15,7 +15,7 @@ function Signup() {
   const handleSignup = async (event) => {
     event.preventDefault();
 
-    const res = await axios.post("http://localhost:3001/signup", {
+    const res = await axios.post("https://mern-pop.onrender.com/signup", {
       firstName: firstName,
       lastName: lastName,
       email: email,
